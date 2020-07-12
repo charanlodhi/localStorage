@@ -1,0 +1,21 @@
+#result{
+    font-size: 27px;
+    height: 200px;
+    background: #fffcfc;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.card{
+    background: #032344;
+}
+.form-group label{
+    color: #fff;
+}
