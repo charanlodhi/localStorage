@@ -1,0 +1,25 @@
+#result{
+    font-size: 48px;
+    height: 82px;
+    background: #fffcfc;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.card{
+    background: #032344;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+label{
+    color: #fffcfc;
+}
+#outputData{
+    color: #fff;
+    font-size: 25px;
+}

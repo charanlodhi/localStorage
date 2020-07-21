@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Form Validation</title>
+</head>
+<body>
+<div class="col-sm-6 mx-auto">
+    <h2 class="m-2">Form Validation</h2>
+<div class="form card p-3">
+  <form action="" name="theform">
+   <div class="form-group"><label for="">First Name</label>
+        <input  onblur="validate()" type="text" class="form-control" name="" id="firstName">
+        <div id="error1" class="invalid-feedback"></div>
+      </div>
+      <div class="form-group">
+        <label for="">Last Name</label>
+        <input onblur="lastNameValidate()" type="text" class="form-control" name="" id="lastName">
+        <div id="error2" class="invalid-feedback"></div>
+      </div>
+      <div class="form-group">
+        <label for="">Email</label>
+        <input onblur="emailValidate()" type="text" class="form-control" name="" id="email">
+        <div id="error3" class="invalid-feedback"></div>
+      </div>
+      <div class="form-group">
+        <label for="">Password</label>
+        <input oninput="passValidate()" type="text" class="form-control" name="" id="password">
+        <div id="passwordError" class="invalid-feedback"></div>
+      </div>
+      <div class="form-group">
+        <label for="">Confirm Password</label>
+        <input oninput="confirmCpassValidate()" type="text" class="form-control" name="" id="confirmPassword">
+       
+        <div id="conFirmpasswordError" class="invalid-feedback"></div>
+      </div>
+        <button id="submitbutton" type="submit" disabled="disabled"  class="btn btn-primary" >Submit</button>
+      </form>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+<script src="formValidation.js"></script>
+</body>
+</html>

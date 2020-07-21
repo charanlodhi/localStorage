@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "cityName":"Pune"
+    },
+    {
+        "id":2,
+        "cityName":"Mumbai"
+    },
+    {
+        "id":3,
+        "cityName":"Goa"
+    },
+    {
+        "id":4,
+        "cityName":"Banglore"
+    },
+    {
+        "id":4,
+        "cityName":"Gwalior"
+    }
+]
